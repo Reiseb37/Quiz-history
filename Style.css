@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+main {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#choices button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: 1px solid #888;
+  border-radius: 4px;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+#choices button.correct {
+  background: #c8e6c9;
+  border-color: #2e7d32;
+}
+
+#choices button.wrong {
+  background: #ffcdd2;
+  border-color: #c62828;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
